@@ -1,5 +1,5 @@
 const calculator = require("./calculator");
 
-const result = calculator(2, 2, "+");
+const result = calculator(4, 4, "+");
 
 console.log(result);
