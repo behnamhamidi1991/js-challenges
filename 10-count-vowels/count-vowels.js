@@ -15,4 +15,8 @@ function countVowels(str) {
       count++;
     }
   }
+
+  return count;
 }
+
+module.exports = countVowels;
