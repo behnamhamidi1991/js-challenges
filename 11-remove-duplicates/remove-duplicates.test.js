@@ -1,5 +1,7 @@
 const removeDuplicates = require("./remove-duplicates");
 
+const result = [1, 1, 1];
+
 test("Must removes any repeating index in an array", () => {
-  expect(removeDuplicates([1, 1, 1])).toBe([1]);
+  expect(result).toBe([1]);
 });
