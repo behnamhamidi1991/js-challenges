@@ -7,7 +7,10 @@ test("Removing duplicates from an array", () => {
       "banana",
       "orange",
       "kiwi",
-    ])
-    expect(removeDuplicates([true, true, false, true, false])).toEqual([true, false])
+    ]);
+    expect(removeDuplicates([true, true, false, true, false])).toEqual([
+      true,
+      false,
+    ]);
   );
 });
